@@ -1,0 +1,85 @@
+.barber {
+    display: flex;
+    justify-content: center;
+    background-image: url("assets/image/luxory-img.png");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    margin-top: 151px;
+    
+}
+
+.barber-tb {
+    padding: 140px 0 200px 0;
+    text-align: center;
+}
+
+.barber-title {
+    max-width: 660px;
+    font-weight: 800;
+    font-size: 48px;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.barber-button {
+    margin-top: 20px;
+}
+
+
+
+@media only screen and (max-width: 1400px) {
+    
+}
+
+
+@media only screen and (max-width: 1200px) {
+    .barber{
+        background-position: left;
+    }
+  
+}
+
+@media only screen and (max-width: 992px){
+    
+    .barber-tb {
+        padding: 90px 0 90px 0;
+        text-align: center;
+    }
+
+    .barber-title {
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .barber{
+        background-position: left;
+    }
+
+}
+
+@media only screen and (max-width: 576px){
+    .barber{
+        background-position: left;
+    }
+    .barber-title{
+        max-width: 460px;
+        font-size: 20px;
+       
+    } 
+}
+
+@media only screen and (max-width: 425px){
+    .barber{
+        background-position: left;
+        margin-top: 100px;
+    }
+
+    .barber-title{
+        max-width: 390px;
+        font-size: 18px;
+       
+    } 
+}

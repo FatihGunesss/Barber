@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'Work Sans';
+    src: url('../WorkSans-Italic.woff2') format('woff2'),
+        url('../works-sans/WorkSans-Italic.woff') format('woff'),
+        url('../works-sans/WorkSans-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Work Sans';
+    src: url('../works-sans/WorkSans-Regular.woff2') format('woff2'),
+        url('../works-sans/WorkSans-Regular.woff') format('woff'),
+        url('../works-sans/WorkSans-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}

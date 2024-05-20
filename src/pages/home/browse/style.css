@@ -1,0 +1,127 @@
+.browse-title {
+    font-weight: 800;
+    font-size: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 34px;
+    margin-top: 114px;
+}
+
+.browse-desc {
+    max-width: 580px;
+    font-family: 'Work Sans';
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.browse-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 90px;
+    padding: 90px 55px;
+    background-color: #ffffff;
+    margin-top: 74px;
+
+}
+
+.browes-item {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+.browse-item__title {
+    font-weight: 800;
+    font-size: 24px;
+}
+
+.browse-item__desc {
+    max-width: 280px;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.browse-item__price {
+    font-weight: 800;
+    font-size: 24px;
+    margin-top: 15px;
+}
+
+.browse-button {
+    text-align: center;
+    margin-top: 40px;
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 1200px) {
+    .browes-item {
+        justify-content: space-between;
+    }
+}
+
+
+
+
+@media only screen and (max-width: 992px) {
+    .browse-wrapper {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 0 auto;
+        padding: 70px 40px;
+        max-width: 500px;
+        margin-top: 50px;
+
+    }
+
+    .browes-item {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .browse-item__title {
+        margin-top: 20px;
+    }
+
+    .browse-item__desc {
+        margin-top: 20px;
+    }
+}
+
+
+@media only screen and (max-width: 425px) {
+    .browse-wrapper{
+        margin-top: 40px;
+    }
+    .browse-title {
+        font-size: 35px;
+    }
+
+    .browse-item__title {
+        font-size: 20px;
+    }
+
+    .browse-item__desc {
+        font-size: 16px;
+    }
+
+    .browse-item__price {
+        font-size: 20px;
+    }
+
+    .browse-button {
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 375px) {}

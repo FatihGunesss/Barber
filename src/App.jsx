@@ -1,16 +1,15 @@
+import { Footer, Header } from "components";
+import { Home } from "pages";
 
-import { Footer, Header } from 'components';
-import { Home } from 'pages';
-
-import './App.css';
-
+import "./App.css";
+import "assets/css/fonts.css";
 
 function App() {
   return (
     <div>
-      <Header/>
-      <Home/>
-      <Footer/>
+      <Header />
+      <Home />
+      <Footer />
     </div>
   );
 }

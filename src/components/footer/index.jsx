@@ -1,9 +1,10 @@
-import React from 'react'
 import "./style.css"
 
 const Footer = () => {
   return (
-    <div>Footer</div>
+    <div className='footer'>
+        <p className='footer-desc'>© Copyright 2022 barbershop - All right reserved</p>
+    </div>
   )
 }
 
