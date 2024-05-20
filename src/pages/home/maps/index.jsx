@@ -42,6 +42,7 @@ const Maps = () => {
       </div>
       <div className="google-map">
         <iframe
+          title="This is a unique title"
           className="map"
           src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d95920.00758676293!2d69.27901369755861!3d41.29798005566096!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1str!2s!4v1716194795975!5m2!1str!2s"
           allowfullscreen=""
