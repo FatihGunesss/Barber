@@ -48,15 +48,15 @@
 
 @media only screen and (max-width: 474px) { 
     .button {
-        padding: 0.315rem 0.940rem 0.315rem 0.940rem ;
-        font-size: 16px;
+        padding: 0.315rem 0.640rem 0.315rem 0.640rem ;
+        font-size: 1rem;
         font-weight: 600;
     }
 }
 
 @media only screen and (max-width: 452px) { 
     .button {
-        padding: 0.315rem 0.940rem 0.315rem 0.940rem;
+        padding: 0.315rem 0.540rem 0.315rem 0.540rem;
         font-size: 0.875rem;
         font-weight: 600;
     }
@@ -64,7 +64,7 @@
 
 @media only screen and (max-width: 414px) { 
     .button {
-        padding: 0.315rem 0.940rem 0.315rem 0.940rem;
+        padding: 0.315rem 0.440rem 0.315rem 0.440rem;
         font-size: 0.625rem;
         font-weight: 600;
     }

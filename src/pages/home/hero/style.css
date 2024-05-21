@@ -8,26 +8,26 @@
 }
 
 .hero-tdb{
-    padding: 345px 0 141px 0;
+    padding: 21.563rem 0 8.813rem 0;
 }
 
 .hero-title{
     text-align: center;
     font-weight: 900;
-    font-size: 72px;
+    font-size: 4.5rem;
     color: #fff;
     max-width: 75%;
     margin: 0 auto;
     text-transform: uppercase;
-    margin-bottom: 25px;
+    margin-bottom: 1.565rem;
 }
 
 .hero-desc{
     font-family: 'Work Sans';
-    font-size: 24px;
+    font-size: 1.5rem;
     text-align: center;
     color: #fff;
-    margin-bottom: 41px;
+    margin-bottom: 2.565rem;
 }
 
 .hero-button{
@@ -41,11 +41,11 @@
 
 @media only screen and (max-width: 992px){
     .hero-title{
-        font-size: 45px;
+        font-size: 2.815rem;
     }
 
     .hero-desc{
-        font-size: 18px;
+        font-size: 1.125rem;
     }
 }
 
@@ -56,40 +56,40 @@
     }
 
     .hero-title{
-        font-size: 30px;
+        font-size: 1.875rem;
     }
 
     .hero-desc{
-        font-size: 18px;
+        font-size: 1.125rem;
     }
 }
 
 
 @media only screen and (max-width: 425px){
     .hero-tdb{
-        padding: 215px 0 140px 0;
+        padding: 13.438rem 0 8.75rem 0;
     }
 
     .hero-title{
-        font-size: 28px;
+        font-size: 1.75rem;
     }
 
     .hero-desc{
-        font-size: 18px;
+        font-size: 1.125rem;
     }
 }
 
 
 @media only screen and (max-width: 376px){
     .hero-tdb{
-        padding: 215px 0 140px 0;
+        padding: 13.440rem 0 8.75rem 0;
     }
 
     .hero-title{
-        font-size: 25px;
+        font-size: 1.565rem;
     }
 
     .hero-desc{
-        font-size: 16px;
+        font-size: 1rem;
     }
 }

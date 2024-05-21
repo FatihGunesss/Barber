@@ -5,26 +5,27 @@
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;
-    margin-top: 151px;
+    margin-top: 9.435rem;
     
 }
 
 .barber-tb {
-    padding: 140px 0 200px 0;
+    padding: 8.75rem 0 12.5rem 0;
     text-align: center;
 }
 
 .barber-title {
-    max-width: 660px;
+    max-width: 80%;
     font-weight: 800;
-    font-size: 48px;
+    font-size: 3rem;
     color: #fff;
     text-align: center;
     text-transform: uppercase;
+    margin: 0 auto;
 }
 
 .barber-button {
-    margin-top: 20px;
+    margin-top: 1.25rem;
 }
 
 
@@ -44,12 +45,12 @@
 @media only screen and (max-width: 992px){
     
     .barber-tb {
-        padding: 90px 0 90px 0;
+        padding: 5.625rem 0 5.625rem 0;
         text-align: center;
     }
 
     .barber-title {
-        font-size: 30px;
+        font-size: 1.875rem;
     }
 }
 
@@ -64,9 +65,10 @@
     .barber{
         background-position: left;
     }
+
     .barber-title{
-        max-width: 460px;
-        font-size: 20px;
+        max-width: 90%;
+        font-size: 1.25rem;
        
     } 
 }
@@ -74,12 +76,11 @@
 @media only screen and (max-width: 425px){
     .barber{
         background-position: left;
-        margin-top: 100px;
+        margin-top: 6.25rem;
     }
 
     .barber-title{
-        max-width: 390px;
-        font-size: 18px;
-       
+        max-width: 90%;
+        font-size: 1.125rem;
     } 
 }

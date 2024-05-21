@@ -71,7 +71,7 @@ const Browse = () => {
 
         <div className="browse-wrapper">
           {services.map((item, indx) => (
-            <div className="browes-item">
+            <div className="browse-item">
               <img key={indx} src={item.img} alt="img" />
               <div className="browse-item__info">
                 <h4 className="browse-item__title">{item.title}</h4>

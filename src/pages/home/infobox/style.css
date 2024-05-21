@@ -1,44 +1,42 @@
 .info-box {
     background-color: #ffffff;
-    margin-top: -80px;
+    margin-top: -5rem;
 }
 
 .box {
     display: flex;
     justify-content: space-around;
-    align-items: center;
     text-align: center;
-    padding: 41px 0 35px 0;
+    padding: 2.5rem 0 1.875rem 0;
 }
 
 .info-box__title {
     font-weight: 800;
-    font-size: 24px;
-    margin-top: 14px;
-    margin-bottom: 16px;
+    font-size: 1.5rem;
+    margin-top: 0.875rem;
     text-transform: uppercase;
 }
 
 .line {
     display: block;
     width: 0px;
-    height: 3px;
+    height: 0.188rem;
     background-color: #DEC7A6;
     margin: 0 auto;
-    margin-bottom: 16px;
+    margin-bottom: 1rem;
     transition: all ease 0.3s;
 }
 
 .info-desc{
     max-width: 70%;
     font-weight: 700;
-    font-size: 18px;
+    font-size: 1.125rem;
     text-transform: uppercase;
     margin: 0 auto;
 }
 
 .info-card:hover .line{
-    width: 80px;    
+    width: 20%;    
 }
 
 
@@ -66,14 +64,13 @@
 
     .info-box__title {
         font-weight: 800;
-        font-size: 20px;
+        font-size: 1.25rem;
     }
 
     .info-desc{
         max-width: 70%;
         font-weight: 700;
-        font-size: 16px;
-        text-transform: uppercase;
+        font-size: 1rem;
         margin: 0 auto;
     }
     
@@ -87,14 +84,14 @@
 
     .info-box__title {
         font-weight: 600;
-        font-size: 18px;
+        font-size: 1.125rem;
     }
 
     .info-desc{
         max-width: 90%;
         font-weight: 600;
-        font-size: 16px;
-        margin-bottom: 24px;
+        font-size: 1rem;
+        margin-bottom: 1.5rem;
     }
 }
 
@@ -109,19 +106,19 @@
         flex-direction: column;
         align-items: center;
         text-align: center;
-        padding: 41px 0 35px 0;
+        padding: 2.565rem 0 2.190rem 0;
     }
 
     .info-box__title {
         font-weight: 600;
-        font-size: 16px;
+        font-size: 1rem;
         margin-bottom: 0px;
     }
 
     .info-desc{
         max-width: 75%;
         font-weight: 400;
-        font-size: 16px;
+        font-size: 1rem;
         
     }
 }
@@ -132,13 +129,13 @@
     }
 
     .info-desc{
-        margin-bottom: 30px;
+        margin-bottom: 1.875;
     }
 
 
     .info-box__title {
         font-weight: 500;
-        font-size: 16px;
+        font-size: 1rem;
         margin-bottom: 0px;
     }
 }

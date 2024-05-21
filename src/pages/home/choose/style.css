@@ -8,54 +8,55 @@
 
 .choose-title {
     font-weight: 800;
-    font-size: 48px;
+    font-size: 3rem;
     text-transform: uppercase;
-    padding-top: 136px;
+    padding-top: 8.5rem;
 }
 
 .choose-desc {
-    max-width: 600px;
+    max-width: 60%;
     font-family: 'Work Sans';
     font-weight: 400;
-    font-size: 16px;
+    font-size: 1rem;
     margin: 0 auto;
-    margin-top: 40px;
+    margin-top: 2.5rem;
 }
 
 .choose-cards {
     display: flex;
     justify-content: space-around;
     text-align: center;
-    margin-top: 70px;
+    margin-top: 4.375rem;
     cursor: pointer;
 }
 
 .choose-card__title {
     font-weight: 800;
-    font-size: 24px;
-    margin-top: 7px;
+    font-size: 1.5rem;
+    margin-top: 0.438rem;
 }
 
 .choose-line {
     display: block;
-    width: 0px;
-    height: 3px;
+    width: 0%;
+    height: 0.188rem;
     background-color: #DEC7A6;
     margin: 0 auto;
     transition: all ease 0.3s;
 }
 
 .choose-card:hover .choose-line {
-    width: 80px;
+    width: 15%;
 }
 
 
 .choose-card__desc {
-    max-width: 240px;
+    max-width: 80%;
     font-weight: 400;
-    font-size: 16px;
-    margin-top: 10px;
-    margin-bottom: 110px;
+    font-size: 1rem;
+    margin: 0 auto;
+    margin-top: 0.625rem;
+    margin-bottom: 6.875rem;
 }
 
 
@@ -63,13 +64,13 @@
 @media only screen and (max-width: 768px) {
     .choose-title {
         font-weight: 800;
-        font-size: 40px;
+        font-size: 2.5rem;
         text-transform: uppercase;
-        padding-top: 136px;
+        padding-top: 8.5rem;
     }
 
     .choose-desc {
-        max-width: 550px;
+        max-width: 65%;
     }
 
     .choose-cards{
@@ -78,39 +79,45 @@
         align-items: center;
     }
 
+    .choose-card__desc{
+        max-width: 55%;
+        margin-bottom: 2.875rem;
+        
+    }
+
     .choose-image{
-        margin-top: 30px;
+        margin-top: 1.875rem;
     }
 }
 
 @media only screen and (max-width: 425px){
     .choose-title{
-        font-size: 37px;
+        font-size: 2.315rem;
     }
 
     .choose-desc {
-        max-width: 500px;
+        max-width: 35%;
     }
 
 
     .choose-card__title {
         font-weight: 700;
-        font-size: 20px;
-        margin-top: 7px;
+        font-size: 1.25rem;
+        margin-top: 0.438rem;
     }
 }
 
 @media only screen and (max-width: 426px){
     .choose-title{
-        font-size: 30px;
+        font-size: 1.875rem;
     }
 
     .choose-desc {
-        font-size: 14px;
-        max-width: 320px;
+        max-width: 80%;
+        font-size: 0.875rem;
     }
 
     .choose-card__desc {
-        font-size: 14px;
+        font-size: 0.875rem;
     }
 }

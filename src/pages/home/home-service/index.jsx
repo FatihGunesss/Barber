@@ -10,15 +10,17 @@ const Service = () => {
     <div className="container2">
       <div className="service-info">
         <div className="service-left">
-          <h3 className="service-title">
-            Your personal barber service at your home
-          </h3>
+          <div className="service-td">
+            <h3 className="service-title">
+              Your personal barber service at your home
+            </h3>
 
-          <p className="service-desc">
-            Nulla egestas sapien integer mi fermentum tellus tristique consequat
-            pulvinar sagittis adipiscing egestas purus et mi tempus semper id
-            vel prci eu magna in senectus sit eget justo
-          </p>
+            <p className="service-desc">
+              Nulla egestas sapien integer mi fermentum tellus tristique
+              consequat pulvinar sagittis adipiscing egestas purus et mi tempus
+              semper id vel prci eu magna in senectus sit eget justo
+            </p>
+          </div>
 
           <div className="service">
             <div className="service-point">

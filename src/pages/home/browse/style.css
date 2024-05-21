@@ -1,17 +1,17 @@
 .browse-title {
     font-weight: 800;
-    font-size: 48px;
+    font-size: 3rem;
     text-align: center;
     text-transform: uppercase;
-    margin-bottom: 34px;
-    margin-top: 114px;
+    margin-bottom: 2.125rem;
+    margin-top: 7.125rem;
 }
 
 .browse-desc {
-    max-width: 580px;
+    max-width: 50%;
     font-family: 'Work Sans';
     font-weight: 400;
-    font-size: 16px;
+    font-size: 1rem;
     text-align: center;
     margin: 0 auto;
 }
@@ -19,40 +19,46 @@
 .browse-wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 90px;
-    padding: 90px 55px;
+    grid-gap: 5.625rem;
+    padding: 5.625rem 3.440rem 5.938rem 8.440rem;
     background-color: #ffffff;
-    margin-top: 74px;
+    margin-top: 4.625rem;
 
 }
 
-.browes-item {
+.browse-item {
     display: flex;
     align-items: flex-start;
-    justify-content: space-evenly;
+}
+
+.browse-item__info{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
 }
 
 .browse-item__title {
     font-weight: 800;
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 
 .browse-item__desc {
-    max-width: 280px;
+    width: 60%;
     font-weight: 400;
-    font-size: 16px;
-    margin-top: 10px;
+    font-size: 1rem;
+    margin-top: 0.625rem;
 }
 
 .browse-item__price {
     font-weight: 800;
-    font-size: 24px;
-    margin-top: 15px;
+    font-size: 1.5rem;
+    margin-top: 0.938rem;
 }
 
 .browse-button {
     text-align: center;
-    margin-top: 40px;
+    margin-top: 2.5rem;
 }
 
 
@@ -62,8 +68,20 @@
 
 
 @media only screen and (max-width: 1200px) {
-    .browes-item {
+    .browse-wrapper {
+        padding: 5.625rem 3.440rem 5.938rem 4.440rem;
+    }
+
+    .browse-item {
         justify-content: space-between;
+    }
+
+    .browse-item__info{
+        max-width: 70%;
+    }
+
+    .browse-item__desc {
+        width: 90%;
     }
 }
 
@@ -72,16 +90,15 @@
 
 @media only screen and (max-width: 992px) {
     .browse-wrapper {
-        display: grid;
         grid-template-columns: 1fr;
+        max-width: 90%;
         margin: 0 auto;
-        padding: 70px 40px;
-        max-width: 500px;
-        margin-top: 50px;
+        padding: 4.375rem 2.5rem;
+        margin-top: 3.125rem;
 
     }
 
-    .browes-item {
+    .browse-item {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -90,37 +107,62 @@
     }
 
     .browse-item__title {
-        margin-top: 20px;
+        margin-top: 1.25rem;
     }
 
     .browse-item__desc {
-        margin-top: 20px;
+        margin: 0 auto;
+        margin-top: 1.25rem;
+        width: 60%;
+    }
+}
+
+
+@media only screen and (max-width: 768px){
+    .browse-desc {
+        width: 80%;
+    }
+} 
+
+@media only screen and (max-width: 576px){
+    .browse-desc {
+        max-width: 100%;
+    }
+
+    .browse-title{
+        font-weight: 700;
+        font-size: 2.0rem;
+    }
+
+    .browse-item__desc {
+        width: 115%;
     }
 }
 
 
 @media only screen and (max-width: 425px) {
     .browse-wrapper{
-        margin-top: 40px;
+        margin-top: 2.5rem;
     }
     .browse-title {
-        font-size: 35px;
+        font-size: 2.188rem;
     }
 
     .browse-item__title {
-        font-size: 20px;
+        font-size: 1.25rem;
     }
 
     .browse-item__desc {
-        font-size: 16px;
+        width: 130%;
+        font-size: 1rem;
     }
 
     .browse-item__price {
-        font-size: 20px;
+        font-size: 1.25rem;
     }
 
     .browse-button {
-        margin-top: 20px;
+        margin-top: 1.25rem;
     }
 }
 

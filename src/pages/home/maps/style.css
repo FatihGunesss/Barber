@@ -26,7 +26,7 @@
 
 .maps-info__left {
     z-index: 2;
-    padding-top: 130px;
+    padding-top: 8.125rem;
 }
 
 .maps-td {
@@ -35,19 +35,19 @@
 
 .maps-title {
     font-weight: 800;
-    font-size: 48px;
+    font-size: 3rem;
     text-transform: uppercase;
     color: #fff;
 }
 
 .maps-desc {
-    max-width: 440px;
+    max-width: 55%;
     font-family: 'Work Sans';
     font-weight: 400;
-    font-size: 16px;
+    font-size: 1rem;
     color: #fff;
     margin: 0 auto;
-    margin-top: 25px;
+    margin-top: 1.565rem;
 }
 
 .maps-give {
@@ -57,23 +57,23 @@
 .maps-call {
     display: inline-block;
     text-align: center;
-    margin: 60px 40px;
+    margin: 3.75rem 2.5rem;
 }
 
 
 .call-title {
     font-weight: 800;
-    font-size: 16px;
+    font-size: 1rem;
     text-transform: uppercase;
     color: #fff;
-    margin-top: 10px;
+    margin-top: 0.625rem;
 }
 
 .call-number {
     font-weight: 400;
-    font: 20px;
+    font: 1.25rem;
     color: #fff;
-    margin-top: 8px;
+    margin-top: 0.5rem;
 }
 
 .google-map {
@@ -84,6 +84,7 @@
     width: 100%;
     height: 350px;
     cursor: pointer;
+    border: none !important;
 }
 
 
@@ -91,14 +92,27 @@
 
 
 
+@media only screen and (max-width: 768px){
+    .maps{
+        background-position: -10.375rem;
+    }
 
-
+    .maps-title {
+        font-size: 2.5rem;
+    }
+    
+}
 
 
 
 @media only screen and (max-width: 576px) {
     .maps{
-        background-position: -150px;
+        background-position: -13.375rem;
+    }
+
+    .maps-overlay {
+        background: linear-gradient(to right, rgba(0, 0, 0, 0.5), transparent);
+    
     }
 
     .maps-title {
@@ -108,24 +122,24 @@
 
 @media only screen and (max-width: 425px) {
     .maps{
-        background-position: -350px;
+        background-position: -20.375rem;
     }
 
     .maps-call {
         display: block;
         text-align: center;
-        margin: 30px 0 0 0;
-        padding-bottom: 30px;
+        margin: 1.875rem 0 0 0;
+        padding-bottom: 1.875rem;
     }
 
     .maps-title {
         font-weight: 800;
-        font-size: 30px;
+        font-size: 1.875rem;
     }
 
     .maps-desc {
-        max-width: 300px;
-        font-size: 12px;
+        max-width: 70%;
+        font-size: 0.75rem;
     }
 
     .call-image{
@@ -136,12 +150,11 @@
 @media only screen and (max-width: 375px) {
     .maps-title {
         font-weight: 700;
-        font-size: 25px;
+        font-size: 1.563rem;
     }
 
     .maps-desc {
-        max-width: 265px;
-        font-size: 12px;
-
+        max-width: 18%;
+        font-size: 0.75rem;
     }
 }
