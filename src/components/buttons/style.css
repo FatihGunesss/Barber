@@ -1,11 +1,11 @@
 .button {
-    padding: 20px 30px 20px 30px;
+    padding: 1.25rem 1.875vw 1.25rem  1.875vw ;
     border-style: none;
     background-color: #DEC7A6;
     color: #000;
     font-family: 'Barlow';
     font-weight: 800;
-    font-size: 18px;
+    font-size: 1.125rem;
     text-align: center;
     transition: all ease 0.3s;
     cursor: pointer;
@@ -23,8 +23,8 @@
 
 @media only screen and (max-width: 992px) {
     .button {
-        padding: 10px 40px 10px 40px;
-        font-size: 16px;
+        padding: 0.625rem 2.5rem 0.625rem 2.5rem;
+        font-size: 1rem;
         font-weight: 700;
     }
 }
@@ -32,23 +32,23 @@
 
 @media only screen and (max-width: 768px) { 
     .button {
-        padding: 10px 30px 10px 30px;
-        font-size: 16px;
+        padding: 0.625rem 1.875rem  0.625rem 1.875rem ;
+        font-size: 1rem;
         font-weight: 700;
     }
 }
 
 @media only screen and (max-width: 576px) { 
     .button {
-        padding: 8px 20px 8px 20px;
-        font-size: 16px;
+        padding: 0.4rem 1.3rem 0.4rem  1.3rem;
+        font-size: 1rem;
         font-weight: 600;
     }
 }
 
 @media only screen and (max-width: 474px) { 
     .button {
-        padding: 5px 15px 5px 15px;
+        padding: 0.315rem 0.940rem 0.315rem 0.940rem ;
         font-size: 16px;
         font-weight: 600;
     }
@@ -56,16 +56,16 @@
 
 @media only screen and (max-width: 452px) { 
     .button {
-        padding: 5px 15px 5px 15px;
-        font-size: 14px;
+        padding: 0.315rem 0.940rem 0.315rem 0.940rem;
+        font-size: 0.875rem;
         font-weight: 600;
     }
 }
 
 @media only screen and (max-width: 414px) { 
     .button {
-        padding: 5px 15px 5px 15px;
-        font-size: 10px;
+        padding: 0.315rem 0.940rem 0.315rem 0.940rem;
+        font-size: 0.625rem;
         font-weight: 600;
     }
 }

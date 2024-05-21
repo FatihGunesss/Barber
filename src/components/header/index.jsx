@@ -9,7 +9,7 @@ const Header = () => {
       <div className="container">
         <div className="header">
           <div header-logo>
-            <a href="#">
+            <a href="/">
               <img
                 className="header-logo__img"
                 src={Barbershop}
@@ -21,22 +21,22 @@ const Header = () => {
           <div className="header-info__menu">
             <ul className="header-menus">
               <li className="header-menu">
-                <a className="header-menu__title active" href="#">
+                <a id="home" className="header-menu__title active" href="#home">
                   Home
                 </a>
               </li>
               <li className="header-menu">
-                <a className="header-menu__title" href="#">
+                <a id="about" className="header-menu__title" href="#about">
                   About
                 </a>
               </li>
               <li className="header-menu">
-                <a className="header-menu__title" href="#">
+                <a id="works" className="header-menu__title" href="#works">
                   Works
                 </a>
               </li>
               <li className="header-menu">
-                <a className="header-menu__title" href="#">
+                <a id="call" className="header-menu__title" href="#call">
                   Call Me
                 </a>
               </li>

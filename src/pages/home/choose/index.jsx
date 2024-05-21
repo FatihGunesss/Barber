@@ -24,7 +24,7 @@ const Choose = () => {
 
         <div className="choose-cards">
           <div className="choose-card">
-            <img className="choose-image" src={Chooseİmg} alt="" />
+            <img className="choose-image" src={Chooseİmg} alt="Chooseeİmg" />
             <h3 className="choose-card__title">Licensed</h3>
             <span className="choose-line"></span>
             <p className="choose-card__desc">
@@ -34,7 +34,7 @@ const Choose = () => {
           </div>
 
           <div className="choose-card">
-            <img className="choose-image" src={Master} alt="" />
+            <img className="choose-image" src={Master} alt="Masterİmg" />
             <h3 className="choose-card__title">Licensed</h3>
             <span className="choose-line"></span>
             <p className="choose-card__desc">
@@ -44,7 +44,7 @@ const Choose = () => {
           </div>
 
           <div className="choose-card">
-            <img className="choose-image" src={Trusted} alt="" />
+            <img className="choose-image" src={Trusted} alt="Trusedİmg" />
             <h3 className="choose-card__title">Licensed</h3>
             <span className="choose-line"></span>
             <p className="choose-card__desc">
