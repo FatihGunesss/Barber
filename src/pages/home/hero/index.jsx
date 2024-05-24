@@ -15,9 +15,7 @@ const Hero = () => {
               <p className='hero-desc'>Experience the Convenience of In-Home Barber Services</p>
 
               <div className="hero-button">
-                  <Button style={{
-                    marginRight: '50px',
-                  }}title={"Book an Appointment"}/>
+                  <Button className="book-btn" title={"Book an Appointment"}/>
 
                   <Button className="secondary-btn" title={"Browse services"} />
               </div>

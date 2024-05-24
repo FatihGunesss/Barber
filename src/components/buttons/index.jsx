@@ -4,9 +4,11 @@ import "./style.css";
 
 const Button = ({ style, title, className }) => {
   return (
-    <button style={style} className={className + " button"}>
-      {title}
-    </button>
+    <div className="all-button">
+      <button style={style} className={className + " button"}>
+        {title}
+      </button>
+    </div>
   );
 };
 

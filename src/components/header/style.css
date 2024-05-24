@@ -48,13 +48,13 @@
 
 @media only screen and (max-width: 992px) {
     .header-menu__title {
-        font-size: 0.93rem;
+        font-size: 1.2rem;
     }
 }
 
 @media only screen and (max-width: 768px) {
     .header-menu__title {
-        font-size: 0.96rem;
+        font-size: 1.2rem;
     }
 }
 
@@ -74,7 +74,7 @@
         left: 0;
         width: 55%;
         height: 100vh;
-        background-color: rgba(0, 0, 0, 0.864);
+        background-color: rgba(0, 0, 0, 0.942);
         justify-content: center;
         align-items: center;
         flex-direction: column;
@@ -88,7 +88,7 @@
     }
 
     .header-menu {
-        margin-top: 4rem;
+        margin-top: 2.5rem;
         transition: all 0.3s ease-in-out;
     }
 
@@ -118,10 +118,17 @@
 
 
     .header-menu__title {
-        font-size: 0.795rem;
+        font-size: 1.4rem;
     }
 
     .header-menu {
         margin-top: 2.5rem;
+    }
+}
+
+
+@media only screen and (max-width: 375px){
+    .header-menu__title {
+        font-size: 1.4rem;
     }
 }

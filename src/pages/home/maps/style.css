@@ -92,6 +92,9 @@
 
 
 
+
+
+
 @media only screen and (max-width: 768px){
     .maps{
         background-position: -10.375rem;
@@ -154,7 +157,7 @@
     }
 
     .maps-desc {
-        max-width: 18%;
+        max-width: 60%;
         font-size: 0.75rem;
     }
 }

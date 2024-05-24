@@ -36,6 +36,10 @@
     background-color: transparent;
 }
 
+.book-btn{
+    margin-right: 30px;
+}
+
 
 
 
@@ -80,7 +84,7 @@
 }
 
 
-@media only screen and (max-width: 376px){
+@media only screen and (max-width: 375px){
     .hero-tdb{
         padding: 13.440rem 0 8.75rem 0;
     }
@@ -91,5 +95,18 @@
 
     .hero-desc{
         font-size: 1rem;
+    }
+
+    .hero-button{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    .book-btn{
+        margin-right: 0;
+        margin-bottom: 1rem;
     }
 }

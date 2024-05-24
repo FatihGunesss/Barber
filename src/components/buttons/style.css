@@ -70,6 +70,17 @@
     }
 }
 
+@media only screen and (max-width: 375px){
+    .button {
+        padding: 1.315rem 1.440rem 1.315rem 1.440rem;
+        font-size: 0.625rem;
+        font-weight: 600;
+    }
+}
+
+
+
+
 
 
 
